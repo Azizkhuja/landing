@@ -578,5 +578,8 @@ header {
     .header__image img:nth-child(2) {
       max-width: 150px;
     }
+    .action__btns .btn {
+      font-size: 0.9rem;
+    }
   }
 }

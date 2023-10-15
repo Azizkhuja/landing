@@ -553,4 +553,22 @@ header {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  header {
+    margin-top: 20px;
+  }
+  .header__image img:nth-child(2) {
+    max-width: 186px;
+    transform: translate(0%, -25%);
+  }
+  .nav__logo {
+    font-size: 1rem;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+  }
+  .socials a {
+    font-size: 1rem;
+    margin-right: 2px;
+  }
 }

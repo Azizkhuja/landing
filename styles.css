@@ -477,12 +477,6 @@ header {
 .footer__col p {
   font-size: 0.8rem;
   margin-bottom: 1rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.footer__col p:hover {
-  color: var(--primary-color);
 }
 
 .footer__col p span {

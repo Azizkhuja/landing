@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
 
 :root {
-  --primary-color: #3685fb;
+  --primary-color: #ff5733;
+  --primary-color-hover: #fb7c60;
   --primary-color-dark: #2f73d9;
   --secondary-color: #fafcff;
   --text-dark: #0d213f;
@@ -57,7 +58,7 @@
 }
 
 .btn:hover {
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color-hover);
 }
 
 a {
@@ -103,7 +104,7 @@ nav img {
   padding: 0.5rem 1rem;
   outline: none;
   border: none;
-  background-color: var(--primary-color);
+  background-color: var(--text-dark);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
@@ -117,6 +118,12 @@ nav img {
   font-weight: 600;
   color: var(--text-dark);
   cursor: pointer;
+}
+.nav__logo h3 {
+  color: var(--primary-color);
+}
+.nav__logo h3 span {
+  color: var(--text-dark);
 }
 
 .nav__links {
@@ -451,7 +458,7 @@ header {
 }
 
 .footer {
-  background-color: var(--text-dark);
+  background-color: var(--primary-color);
 }
 
 .footer__container {
@@ -462,13 +469,9 @@ header {
 }
 
 .footer__col h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 2rem;
-}
-
-.footer__col h3 span {
-  color: var(--primary-color);
 }
 
 .footer__col p {
@@ -499,7 +502,7 @@ header {
   text-align: center;
   font-size: 0.8rem;
   color: var(--secondary-color);
-  border-top: 1px solid var(--text-light);
+  border-top: 1px solid var(--extra-light);
 }
 
 @media (max-width: 1200px) {

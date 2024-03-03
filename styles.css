@@ -383,6 +383,12 @@ header {
   cursor: pointer;
   transition: 0.3s;
 }
+.book__now a {
+  color: var(--primary-color);
+}
+.book__now a:hover {
+  color: var(--extra-light);
+}
 
 .book__now:hover {
   color: var(--extra-light);

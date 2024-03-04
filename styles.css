@@ -17,6 +17,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+select {
+  padding: 12px;
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -490,6 +498,7 @@ form .form-row .input-data {
   width: 100%;
   height: 40px;
   position: relative;
+  margin-right: 10px;
 }
 form .form-row .textarea {
   height: 70px;
@@ -511,6 +520,17 @@ form .form-row .textarea {
   font-size: 14px;
   color: #3498db;
 }
+
+.input-data input:focus-visible {
+  outline: none;
+  border: none;
+}
+
+.input-data textarea:focus-visible {
+  outline: none;
+  border: none;
+}
+
 .textarea textarea {
   resize: none;
   padding-top: 10px;
